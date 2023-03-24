@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main ()
+{
+	double x,n,result;
+	int add,sub,mul;
+	float div;
+	printf("enter the x:");
+	scanf("%1lf", &x);
+	printf("enter the n: ");
+	scanf("%1lf", &n);
+	add=x+n;
+	sub=x-n;
+	mul=x*n;
+	div=x/n;
+	result= pow(x,n);
+	printf("addition :%d\n",add);
+	printf("subtraction :%d\n",sub);
+	printf("multiplication :%d\n",mul);
+	printf("division :%f\n",div);
+	printf("power:%.1lf^%.1lf=%.2lf\n",x,n,result);
+	return 0;
